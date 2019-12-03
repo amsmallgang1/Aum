@@ -1,0 +1,32 @@
+<% include ../partials/header %>
+<div class="container">
+<h1>Editmusic : <%=detail.book_name%></h1>
+  <form action="/booksave" method="POST">
+    <div class="form-group">
+      <label for="">Name</label>
+      <input type="text" class="form-control" value="<%=detail.book_id%>" name="id" id="" aria-describedby="helpId" readonly
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Album</label>
+      <input type="text" class="form-control" value="<%=detail.book_name%>" name="name" id=""
+        aria-describedby="helpId" placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Price</label>
+      <input type="text" class="form-control" value="<%=detail.price%>" name="price" id="" aria-describedby="helpId"
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Date</label>
+      <input type="text" class="form-control" value="<%=detail.year%>" name="year" id="" aria-describedby="helpId"
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <button type="submit" class="btn btn-primary">save</button>
+  </form>
+</div>
+<% include ../partials/footer %>

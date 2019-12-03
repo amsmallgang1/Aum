@@ -1,0 +1,62 @@
+{
+    "book_id" : "001",
+    "book_name" : "Jungle Book",
+    "price" : "700.50",
+    "year" : "1995"
+}
+
+{
+    "book_id" : "002",
+    "book_name" : "Tiger Book",
+    "price" : "70.50",
+    "year" : "1995"
+}
+
+{
+    "book_id" : "003",
+    "book_name" : "Eiei Book",
+    "price" : "80.50",
+    "year" : "2000"
+}
+{
+    "book_id" : "004",
+    "book_name" : "Book of life",
+    "price" : "159",
+    "year" : "1998"
+}
+{
+    "book_id" : "005",
+    "book_name" : "Manga Books",
+    "price" : "450",
+    "year" : "2019"
+}
+{
+    "book_id" : "006",
+    "book_name" : "Ten year ago",
+    "price" : "399",
+    "year" : "2018"
+}
+{
+    "book_id" : "007",
+    "book_name" : "Football magazin",
+    "price" : "228",
+    "year" : "2019"
+}
+{
+    "book_id" : "008",
+    "book_name" : "Mavel Comic",
+    "price" : "98",
+    "year" : "1988"
+}
+{
+    "book_id" : "009",
+    "book_name" : "DC Comic",
+    "price" : "119",
+    "year" : "1995"
+}
+{
+    "book_id" : "0010",
+    "book_name" : "Guitar Cord 2019",
+    "price" : "590",
+    "year" : "2019"
+}

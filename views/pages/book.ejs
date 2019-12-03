@@ -1,0 +1,35 @@
+<% include ../partials/header %>
+<div class="container">
+
+    <h1>Classroom for the semeter</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Year</th>
+                <th>Action  <a name="" id="" class="btn btn-primary" href="/addbook" role="button">Add</a> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <%book.forEach(function(bookcode){ %>
+            <tr>
+
+                <td scope="row"><a> <%=bookcode.book_name%> </a></td>
+                    <td><%=bookcode.price%></td>
+                    <td><%=bookcode.year%></td>
+                    
+                    <td><a name="" id="" class="btn btn-primary" href="/bookdetails/<%=bookcode.book_name%>" role="button">View</a>
+                        <a name="" id="" class="btn btn-primary" href="/edit/<%=bookcode.book_name%>" role="button">Edit</a>
+                        <a name="" id="" class="btn btn-primary" href="/delete/<%=bookcode.book_name%>" role="button">Delete</a>
+                    </td>
+                </tr>
+                <%});%>
+            </tbody>
+        </table>
+
+
+   
+</div>
+<% include ../partials/footer %>
